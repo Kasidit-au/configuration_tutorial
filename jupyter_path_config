@@ -1,0 +1,16 @@
+Open jupyter notebook with specified path:
+
+when we want to open  jupyter notebook inside desired path, we usually type cd path in command prompt or anaconda prompt but this takes time.
+
+So what we can do is the following steps:
+
+1. write script in notepad
+
+ECHO ON
+call C:\ProgramData\Anaconda3\Scripts\activate.bat
+cd C:\Users\kasiditp\Desktop\python
+jupyter notebook
+
+2. save as .bat file
+
+3. click on this file when we want to use jupyter notebook
